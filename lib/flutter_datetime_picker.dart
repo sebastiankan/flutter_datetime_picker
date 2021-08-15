@@ -266,11 +266,11 @@ class DatePickerComponent extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    return _DatePickerState();
+    return DatePickerState();
   }
 }
 
-class _DatePickerState extends State<DatePickerComponent> {
+class DatePickerState extends State<DatePickerComponent> {
   late FixedExtentScrollController leftScrollCtrl,
       middleScrollCtrl,
       rightScrollCtrl;
